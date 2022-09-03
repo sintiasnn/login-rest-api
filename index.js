@@ -24,4 +24,4 @@ const authRoute = require('./routes/auth');
 //Route middleware
 app.use('/api/user', authRoute);
 
-app.listen(3000, () => console.log('server up and running'));
+app.listen(5000, () => console.log('server up and running'));
